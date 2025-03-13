@@ -21,5 +21,7 @@ public class Task3 {
         max = 0;
         max = Math.max(Math.max(first, second), third);
         System.out.println("Максимальное значение с помощью Math.max(): " + max);
+
+        scanner.close();
     }
 }
